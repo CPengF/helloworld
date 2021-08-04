@@ -43,7 +43,7 @@ int main()
 {
     int y;
     cout << "y: " << y << endl;
-    int x[2] {1, 4};
+    int x[2] {677, 4};
     S2 x23 {6};
     cout <<"a: " << x23.get(0) << ", b: " << x23.get(1) << endl;
     x23.set(&x[0]);
